@@ -1,5 +1,5 @@
 export const datesPeople = async () => {
-    const apiUrl = 'https://swapi.dev/api/people/1/';
+    const apiUrl = 'https://swapi.dev/api/people';
     try {
         const databasePeople = await fetch(apiUrl, { method: 'GET' });
         const jsonDataPeople = await databasePeople.json();
@@ -18,3 +18,6 @@ export const datesPeople = async () => {
         console.error(error);
     }
 };
+
+datesPeople ();
+

@@ -1,0 +1,31 @@
+body {
+background-image: url('https://wallpaperstock.net/mini-dunas-de-arena-wallpapers_22360_2560x1600.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.data-container {
+    width: 34%;
+    margin: 5%;
+    background-color: #ffffff;
+    color: rgb(170, 187, 176);
+    padding: 5%;
+    border-radius: 10%;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data-container p {
+    font-size: 105%;
+    margin-bottom: 0%;
+}
+
+.data-container p.label {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.data-container p.value {
+    font-weight: bold;
+}

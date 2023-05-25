@@ -1,9 +1,10 @@
-import AppComponent from "./App.jsx";
+import DataStarwars from "./DataStarwars.jsx";
 
 const App = () => {
   return (
-    <AppComponent/>
+    <DataStarwars/>
   );
 };
 
 export default App;
+
